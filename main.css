@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-position: inside;
+    padding-left: 2rem;
+}
+a {
+    color: #666;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background: #efefef;
+    font:14px/1.5 Arial;
+    color: #666;
+    margin: 2rem 0;
+}
+.layout {
+    max-width: 90rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+}
+/*header*/
+header {
+    background: #3c3c3c;
+    padding: 3rem 0 1rem 0;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    color: #fff;
+    position: relative;
+}
+header>p {
+    color: #ddd;
+}
+/*main*/
+main {
+    display: flex;
+    flex-grow: 1;
+    background: #fff;
+}
+main>aside{
+    width: 30%;
+    heigth: 100%;
+    border-right: 1px solid #ccc;
+    position: relative;
+}
+main>article {
+    width: 70%;
+}
+main section {
+    border-bottom: 1px solid #ccc;
+    margin: 3rem 2rem 0 2rem;
+    padding-bottom: 2rem;
+    /* border: 1px solid; */
+}
+section h2 {
+    color: #5c99ca;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.project h3 {
+    margin: 1.4rem 0;
+    color: #333;
+}
+.app ol {
+    margin-left: 4rem;
+}
+
+header>img {
+    width: 14rem;
+    height: 14rem;
+    background: #ddd;
+    border-radius: 50%;
+    position: absolute;
+    left: 14rem;
+    bottom: -8rem;
+    transform:translateX(-50%);
+}
+/*main>aside*/
+aside>.skill{
+    margin-top: 12rem;
+}
+.contact .icon-ipone::after {
+    content: '15558127513';
+    font-size: 1.4rem;
+}
+.contact .icon-email::after {
+    content: '969909031@qq.com';
+    font-size: 1.4rem;
+}
+
+/*main>article*/
+article>.about p {
+    text-indent: 2rem;
+}
+@media (max-width: 768px) {
+
+    body {
+        color: #333;
+        font-size: 1.8rem;
+        margin: 0;
+    }
+    header{
+       height: 14rem;
+    }
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 4rem;
+    }
+    main>aside{
+        width: 100%;
+        
+       
+    }
+    header>img {
+        position: absolute;
+        top:10rem;
+        left: 50%;
+        width: 12rem;
+        height: 12rem; 
+    }
+    main aside>.skill {
+      margin-top: 5rem;
+    }
+    section>div {
+       
+        
+    }
+    main>article {
+        width: 100%;
+    }
+}

@@ -1,0 +1,3 @@
+function Dep(){
+    this = self
+}
