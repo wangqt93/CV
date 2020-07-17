@@ -102,8 +102,11 @@ article>.about p {
 
     body {
         color: #333;
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         margin: 0;
+    }
+    .layout{
+        width: 100%;
     }
     header{
        height: 14rem;
