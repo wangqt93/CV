@@ -67,7 +67,7 @@ section h2 {
     margin: 1.4rem 0;
     color: #333;
 }
-.app ol {
+.app ol,.about ol {
     margin-left: 4rem;
 }
 
@@ -117,7 +117,7 @@ article>.about p {
 
     body {
         color: #333;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         margin: 0;
     }
     .layout{
